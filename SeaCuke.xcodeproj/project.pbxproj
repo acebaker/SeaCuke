@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B802BDCE1BF4174400AA7D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDCD1BF4174400AA7D50 /* AppDelegate.swift */; };
+		B802BDD01BF4174400AA7D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDCF1BF4174400AA7D50 /* ViewController.swift */; };
+		B802BDD31BF4174400AA7D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B802BDD11BF4174400AA7D50 /* Main.storyboard */; };
+		B802BDD51BF4174400AA7D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B802BDD41BF4174400AA7D50 /* Assets.xcassets */; };
+		B802BDD81BF4174400AA7D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */; };
+		B802BDE31BF4174400AA7D50 /* SeaCukeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDE21BF4174400AA7D50 /* SeaCukeTests.swift */; };
+		B802BDEE1BF4174400AA7D50 /* SeaCukeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDED1BF4174400AA7D50 /* SeaCukeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B802BDDF1BF4174400AA7D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B802BDC21BF4174400AA7D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B802BDC91BF4174400AA7D50;
+			remoteInfo = SeaCuke;
+		};
+		B802BDEA1BF4174400AA7D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B802BDC21BF4174400AA7D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B802BDC91BF4174400AA7D50;
+			remoteInfo = SeaCuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B802BDCA1BF4174400AA7D50 /* SeaCuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaCuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B802BDCD1BF4174400AA7D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B802BDCF1BF4174400AA7D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B802BDD21BF4174400AA7D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B802BDD41BF4174400AA7D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B802BDD71BF4174400AA7D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B802BDD91BF4174400AA7D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B802BDDE1BF4174400AA7D50 /* SeaCukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B802BDE21BF4174400AA7D50 /* SeaCukeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCukeTests.swift; sourceTree = "<group>"; };
+		B802BDE41BF4174400AA7D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B802BDE91BF4174400AA7D50 /* SeaCukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCukeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B802BDED1BF4174400AA7D50 /* SeaCukeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCukeUITests.swift; sourceTree = "<group>"; };
+		B802BDEF1BF4174400AA7D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B802BDC71BF4174400AA7D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDDB1BF4174400AA7D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDE61BF4174400AA7D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B802BDC11BF4174400AA7D50 = {
+			isa = PBXGroup;
+			children = (
+				B802BDCC1BF4174400AA7D50 /* SeaCuke */,
+				B802BDE11BF4174400AA7D50 /* SeaCukeTests */,
+				B802BDEC1BF4174400AA7D50 /* SeaCukeUITests */,
+				B802BDCB1BF4174400AA7D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B802BDCB1BF4174400AA7D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDCA1BF4174400AA7D50 /* SeaCuke.app */,
+				B802BDDE1BF4174400AA7D50 /* SeaCukeTests.xctest */,
+				B802BDE91BF4174400AA7D50 /* SeaCukeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B802BDCC1BF4174400AA7D50 /* SeaCuke */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDCD1BF4174400AA7D50 /* AppDelegate.swift */,
+				B802BDCF1BF4174400AA7D50 /* ViewController.swift */,
+				B802BDD11BF4174400AA7D50 /* Main.storyboard */,
+				B802BDD41BF4174400AA7D50 /* Assets.xcassets */,
+				B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */,
+				B802BDD91BF4174400AA7D50 /* Info.plist */,
+			);
+			path = SeaCuke;
+			sourceTree = "<group>";
+		};
+		B802BDE11BF4174400AA7D50 /* SeaCukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDE21BF4174400AA7D50 /* SeaCukeTests.swift */,
+				B802BDE41BF4174400AA7D50 /* Info.plist */,
+			);
+			path = SeaCukeTests;
+			sourceTree = "<group>";
+		};
+		B802BDEC1BF4174400AA7D50 /* SeaCukeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDED1BF4174400AA7D50 /* SeaCukeUITests.swift */,
+				B802BDEF1BF4174400AA7D50 /* Info.plist */,
+			);
+			path = SeaCukeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B802BDC91BF4174400AA7D50 /* SeaCuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B802BDF21BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCuke" */;
+			buildPhases = (
+				B802BDC61BF4174400AA7D50 /* Sources */,
+				B802BDC71BF4174400AA7D50 /* Frameworks */,
+				B802BDC81BF4174400AA7D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaCuke;
+			productName = SeaCuke;
+			productReference = B802BDCA1BF4174400AA7D50 /* SeaCuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B802BDDD1BF4174400AA7D50 /* SeaCukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B802BDF51BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeTests" */;
+			buildPhases = (
+				B802BDDA1BF4174400AA7D50 /* Sources */,
+				B802BDDB1BF4174400AA7D50 /* Frameworks */,
+				B802BDDC1BF4174400AA7D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B802BDE01BF4174400AA7D50 /* PBXTargetDependency */,
+			);
+			name = SeaCukeTests;
+			productName = SeaCukeTests;
+			productReference = B802BDDE1BF4174400AA7D50 /* SeaCukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B802BDE81BF4174400AA7D50 /* SeaCukeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B802BDF81BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeUITests" */;
+			buildPhases = (
+				B802BDE51BF4174400AA7D50 /* Sources */,
+				B802BDE61BF4174400AA7D50 /* Frameworks */,
+				B802BDE71BF4174400AA7D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B802BDEB1BF4174400AA7D50 /* PBXTargetDependency */,
+			);
+			name = SeaCukeUITests;
+			productName = SeaCukeUITests;
+			productReference = B802BDE91BF4174400AA7D50 /* SeaCukeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B802BDC21BF4174400AA7D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jeremy Juel";
+				TargetAttributes = {
+					B802BDC91BF4174400AA7D50 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B802BDDD1BF4174400AA7D50 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B802BDC91BF4174400AA7D50;
+					};
+					B802BDE81BF4174400AA7D50 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B802BDC91BF4174400AA7D50;
+					};
+				};
+			};
+			buildConfigurationList = B802BDC51BF4174400AA7D50 /* Build configuration list for PBXProject "SeaCuke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B802BDC11BF4174400AA7D50;
+			productRefGroup = B802BDCB1BF4174400AA7D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B802BDC91BF4174400AA7D50 /* SeaCuke */,
+				B802BDDD1BF4174400AA7D50 /* SeaCukeTests */,
+				B802BDE81BF4174400AA7D50 /* SeaCukeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B802BDC81BF4174400AA7D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B802BDD81BF4174400AA7D50 /* LaunchScreen.storyboard in Resources */,
+				B802BDD51BF4174400AA7D50 /* Assets.xcassets in Resources */,
+				B802BDD31BF4174400AA7D50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDDC1BF4174400AA7D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDE71BF4174400AA7D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B802BDC61BF4174400AA7D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B802BDD01BF4174400AA7D50 /* ViewController.swift in Sources */,
+				B802BDCE1BF4174400AA7D50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDDA1BF4174400AA7D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B802BDE31BF4174400AA7D50 /* SeaCukeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802BDE51BF4174400AA7D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B802BDEE1BF4174400AA7D50 /* SeaCukeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B802BDE01BF4174400AA7D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B802BDC91BF4174400AA7D50 /* SeaCuke */;
+			targetProxy = B802BDDF1BF4174400AA7D50 /* PBXContainerItemProxy */;
+		};
+		B802BDEB1BF4174400AA7D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B802BDC91BF4174400AA7D50 /* SeaCuke */;
+			targetProxy = B802BDEA1BF4174400AA7D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B802BDD11BF4174400AA7D50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B802BDD21BF4174400AA7D50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B802BDD71BF4174400AA7D50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B802BDF01BF4174400AA7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B802BDF11BF4174400AA7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B802BDF31BF4174400AA7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeaCuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B802BDF41BF4174400AA7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeaCuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B802BDF61BF4174400AA7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeaCukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCuke.app/SeaCuke";
+			};
+			name = Debug;
+		};
+		B802BDF71BF4174400AA7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeaCukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaCuke.app/SeaCuke";
+			};
+			name = Release;
+		};
+		B802BDF91BF4174400AA7D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeaCukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeaCuke;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B802BDFA1BF4174400AA7D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeaCukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JeremyJuel.SeaCukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeaCuke;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B802BDC51BF4174400AA7D50 /* Build configuration list for PBXProject "SeaCuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B802BDF01BF4174400AA7D50 /* Debug */,
+				B802BDF11BF4174400AA7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B802BDF21BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B802BDF31BF4174400AA7D50 /* Debug */,
+				B802BDF41BF4174400AA7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B802BDF51BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B802BDF61BF4174400AA7D50 /* Debug */,
+				B802BDF71BF4174400AA7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B802BDF81BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B802BDF91BF4174400AA7D50 /* Debug */,
+				B802BDFA1BF4174400AA7D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B802BDC21BF4174400AA7D50 /* Project object */;
+}
