@@ -14,6 +14,9 @@
 		B802BDD81BF4174400AA7D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */; };
 		B802BDE31BF4174400AA7D50 /* SeaCukeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDE21BF4174400AA7D50 /* SeaCukeTests.swift */; };
 		B802BDEE1BF4174400AA7D50 /* SeaCukeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDED1BF4174400AA7D50 /* SeaCukeUITests.swift */; };
+		B802BDFC1BF41ACF00AA7D50 /* LuckyNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */; };
+		B80EF0AD1BFC59B0006B16B2 /* Cuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80EF0AC1BFC59B0006B16B2 /* Cuke.swift */; };
+		B80EF0AF1BFCDB04006B16B2 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B802BDE91BF4174400AA7D50 /* SeaCukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaCukeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B802BDED1BF4174400AA7D50 /* SeaCukeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCukeUITests.swift; sourceTree = "<group>"; };
 		B802BDEF1BF4174400AA7D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyNoteViewController.swift; sourceTree = "<group>"; };
+		B80EF0AC1BFC59B0006B16B2 /* Cuke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuke.swift; sourceTree = "<group>"; };
+		B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				B802BDCD1BF4174400AA7D50 /* AppDelegate.swift */,
-				B802BDCF1BF4174400AA7D50 /* ViewController.swift */,
-				B802BDD11BF4174400AA7D50 /* Main.storyboard */,
+				B80EF0B11BFCDB1B006B16B2 /* Models */,
+				B80EF0B01BFCDB13006B16B2 /* ViewControllers */,
+				B80EF0B21BFCDB3C006B16B2 /* Views */,
 				B802BDD41BF4174400AA7D50 /* Assets.xcassets */,
 				B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */,
 				B802BDD91BF4174400AA7D50 /* Info.plist */,
@@ -123,6 +130,32 @@
 				B802BDEF1BF4174400AA7D50 /* Info.plist */,
 			);
 			path = SeaCukeUITests;
+			sourceTree = "<group>";
+		};
+		B80EF0B01BFCDB13006B16B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDCF1BF4174400AA7D50 /* ViewController.swift */,
+				B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B80EF0B11BFCDB1B006B16B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B80EF0AC1BFC59B0006B16B2 /* Cuke.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B80EF0B21BFCDB3C006B16B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B802BDD11BF4174400AA7D50 /* Main.storyboard */,
+				B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80EF0AF1BFCDB04006B16B2 /* BubbleView.swift in Sources */,
 				B802BDD01BF4174400AA7D50 /* ViewController.swift in Sources */,
+				B80EF0AD1BFC59B0006B16B2 /* Cuke.swift in Sources */,
+				B802BDFC1BF41ACF00AA7D50 /* LuckyNoteViewController.swift in Sources */,
 				B802BDCE1BF4174400AA7D50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +520,7 @@
 				B802BDF41BF4174400AA7D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B802BDF51BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +529,7 @@
 				B802BDF71BF4174400AA7D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B802BDF81BF4174400AA7D50 /* Build configuration list for PBXNativeTarget "SeaCukeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				B802BDFA1BF4174400AA7D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

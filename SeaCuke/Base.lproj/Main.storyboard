@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SeaCuke" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,106 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="hYS-qL-jt2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Nf-Fg-S1Z" userLabel="CukeView">
+                                <rect key="frame" x="180" y="245" width="240" height="315"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cuke_01" translatesAutoresizingMaskIntoConstraints="NO" id="eHX-I9-efe">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="315"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGU-Pd-iPZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="315"/>
+                                        <animations/>
+                                        <state key="normal">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="pressTheButton:" destination="BYZ-38-t0r" eventType="touchDown" id="Uce-OI-PBK"/>
+                                            <action selector="releaseTheButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ohT-85-HtD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="eHX-I9-efe" firstAttribute="leading" secondItem="5Nf-Fg-S1Z" secondAttribute="leading" id="0AX-Ig-PWX"/>
+                                    <constraint firstAttribute="bottom" secondItem="MGU-Pd-iPZ" secondAttribute="bottom" id="EaU-s8-tta"/>
+                                    <constraint firstAttribute="bottom" secondItem="eHX-I9-efe" secondAttribute="bottom" id="H8X-pV-Acn"/>
+                                    <constraint firstAttribute="height" constant="315" id="LUi-kR-BsU"/>
+                                    <constraint firstAttribute="width" constant="240" id="U4i-Fk-dXz"/>
+                                    <constraint firstItem="MGU-Pd-iPZ" firstAttribute="top" secondItem="5Nf-Fg-S1Z" secondAttribute="top" id="aIx-cn-Ag6"/>
+                                    <constraint firstAttribute="trailing" secondItem="eHX-I9-efe" secondAttribute="trailing" id="b94-io-hww"/>
+                                    <constraint firstItem="MGU-Pd-iPZ" firstAttribute="leading" secondItem="5Nf-Fg-S1Z" secondAttribute="leading" id="hNI-HR-KxE"/>
+                                    <constraint firstItem="eHX-I9-efe" firstAttribute="top" secondItem="5Nf-Fg-S1Z" secondAttribute="top" id="kRR-FM-vcq"/>
+                                    <constraint firstAttribute="trailing" secondItem="MGU-Pd-iPZ" secondAttribute="trailing" id="qds-S1-qG5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.49852281808853149" green="0.54632747173309326" blue="0.99876582622528076" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hYS-qL-jt2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LwN-mw-aKi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Nf-Fg-S1Z" secondAttribute="bottom" constant="40" id="bfa-jQ-JBZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hYS-qL-jt2" secondAttribute="bottom" id="cU7-Ax-vLg"/>
+                            <constraint firstItem="hYS-qL-jt2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="iZL-r0-78I"/>
+                            <constraint firstAttribute="trailing" secondItem="hYS-qL-jt2" secondAttribute="trailing" id="lVj-GZ-agL"/>
+                            <constraint firstItem="5Nf-Fg-S1Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vqh-sB-7BG"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cukeView" destination="5Nf-Fg-S1Z" id="95z-L2-iy6"/>
+                        <outlet property="rubButton" destination="MGU-Pd-iPZ" id="kFu-nt-upk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="240" y="429"/>
+        </scene>
+        <!--Lucky Note View Controller-->
+        <scene sceneID="Bup-Q3-R8H">
+            <objects>
+                <viewController storyboardIdentifier="LuckyNoteViewController" id="UBL-HM-Zrj" customClass="LuckyNoteViewController" customModule="SeaCuke" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wnf-eG-grH"/>
+                        <viewControllerLayoutGuide type="bottom" id="a87-sM-dp4"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.90000000000000002" contentMode="scaleToFill" id="Yb3-Pj-OMD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBA-qg-sVL">
+                                <rect key="frame" x="20" y="40" width="560" height="540"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iBA-qg-sVL" firstAttribute="leading" secondItem="Yb3-Pj-OMD" secondAttribute="leading" constant="20" id="CTa-s6-Mhh"/>
+                            <constraint firstItem="iBA-qg-sVL" firstAttribute="top" secondItem="wnf-eG-grH" secondAttribute="bottom" constant="20" id="TkI-hu-WT3"/>
+                            <constraint firstAttribute="trailing" secondItem="iBA-qg-sVL" secondAttribute="trailing" constant="20" id="ngG-lD-dGH"/>
+                            <constraint firstItem="a87-sM-dp4" firstAttribute="top" secondItem="iBA-qg-sVL" secondAttribute="bottom" constant="20" id="nzD-xz-Zdv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="noteTextLabel" destination="iBA-qg-sVL" id="fjB-O2-YNd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jW8-Ks-evE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1171" y="406"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BG" width="750" height="1334"/>
+        <image name="Cuke_01" width="310" height="470"/>
+    </resources>
 </document>
