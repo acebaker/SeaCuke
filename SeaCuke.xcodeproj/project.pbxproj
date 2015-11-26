@@ -17,6 +17,8 @@
 		B802BDFC1BF41ACF00AA7D50 /* LuckyNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */; };
 		B80EF0AD1BFC59B0006B16B2 /* Cuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80EF0AC1BFC59B0006B16B2 /* Cuke.swift */; };
 		B80EF0AF1BFCDB04006B16B2 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */; };
+		B8892E4B1C06545A00408A4E /* SeaScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B8892E4A1C06545A00408A4E /* SeaScene.sks */; };
+		B8892E4D1C06548100408A4E /* SeaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8892E4C1C06548100408A4E /* SeaScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuckyNoteViewController.swift; sourceTree = "<group>"; };
 		B80EF0AC1BFC59B0006B16B2 /* Cuke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuke.swift; sourceTree = "<group>"; };
 		B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		B8892E4A1C06545A00408A4E /* SeaScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SeaScene.sks; sourceTree = "<group>"; };
+		B8892E4C1C06548100408A4E /* SeaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				B80EF0B11BFCDB1B006B16B2 /* Models */,
 				B80EF0B01BFCDB13006B16B2 /* ViewControllers */,
 				B80EF0B21BFCDB3C006B16B2 /* Views */,
+				B8892E471C0653D200408A4E /* Scenes */,
 				B802BDD41BF4174400AA7D50 /* Assets.xcassets */,
 				B802BDD61BF4174400AA7D50 /* LaunchScreen.storyboard */,
 				B802BDD91BF4174400AA7D50 /* Info.plist */,
@@ -156,6 +161,15 @@
 				B80EF0AE1BFCDB04006B16B2 /* BubbleView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		B8892E471C0653D200408A4E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B8892E4C1C06548100408A4E /* SeaScene.swift */,
+				B8892E4A1C06545A00408A4E /* SeaScene.sks */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,7 @@
 			files = (
 				B802BDD81BF4174400AA7D50 /* LaunchScreen.storyboard in Resources */,
 				B802BDD51BF4174400AA7D50 /* Assets.xcassets in Resources */,
+				B8892E4B1C06545A00408A4E /* SeaScene.sks in Resources */,
 				B802BDD31BF4174400AA7D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +308,7 @@
 				B802BDD01BF4174400AA7D50 /* ViewController.swift in Sources */,
 				B80EF0AD1BFC59B0006B16B2 /* Cuke.swift in Sources */,
 				B802BDFC1BF41ACF00AA7D50 /* LuckyNoteViewController.swift in Sources */,
+				B8892E4D1C06548100408A4E /* SeaScene.swift in Sources */,
 				B802BDCE1BF4174400AA7D50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
