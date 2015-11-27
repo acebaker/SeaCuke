@@ -14,6 +14,7 @@ class ViewController: UIViewController, CukeDelegate {
 
     @IBOutlet weak var rubButton: UIButton!
     @IBOutlet weak var cukeView: UIView!
+    let cukeShapeLayer = CAShapeLayer()
     
     var luckyNoteVC = LuckyNoteViewController!()
     let cuke = Cuke()
@@ -40,6 +41,8 @@ class ViewController: UIViewController, CukeDelegate {
         //cukeView.layer.anchorPoint = CGPointMake(0.5, 0.9)
         //cukeView.transform = CGAffineTransformMakeTranslation(0, cukeView.frame.height*0.8)
         
+        createCuke()
+        
         cuke.delegate = self
         
         luckyNoteVC = storyboard?.instantiateViewControllerWithIdentifier("LuckyNoteViewController") as! LuckyNoteViewController
@@ -53,14 +56,15 @@ class ViewController: UIViewController, CukeDelegate {
     
     @IBAction func pressTheButton(sender: AnyObject) {
         let transform = CGAffineTransformMakeScale(0.96, 0.9)
-        cukeView.transform = transform
+        //cukeView.transform = transform
         
         makeBubble()
     }
 
     @IBAction func releaseTheButton(sender: AnyObject) {
-        cukeView.transform = CGAffineTransformIdentity
+        //cukeView.transform = CGAffineTransformIdentity
         cuke.getExcited()
+        scaleCuke()
     }
     
     override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
@@ -85,7 +89,43 @@ class ViewController: UIViewController, CukeDelegate {
         luckyNoteVC.createLuckyNote(self)
     }
     
+    func createCuke() -> CAShapeLayer {
+        let path = UIBezierPath()
+        path.moveToPoint(CGPoint(x: cukeView.frame.width/2, y: cukeView.frame.height-50))
+        path.addLineToPoint(CGPoint(x: cukeView.frame.width/2, y: 0))
+        
+        cukeShapeLayer.path = path.CGPath
+        
+        cukeShapeLayer.strokeColor = UIColor(red: 166/255, green: 255/255, blue: 232/255, alpha: 1.0).CGColor
+        cukeShapeLayer.lineWidth = 100
+        cukeShapeLayer.lineCap = "round"
+        cukeShapeLayer.fillColor = nil
+        cukeView.layer.addSublayer(cukeShapeLayer)
+        
+        return cukeShapeLayer
+    }
     
+    func scaleCuke() {
+        
+        let toPath = UIBezierPath()
+        toPath.moveToPoint(CGPoint(x: cukeView.frame.width/2, y: cukeView.frame.height-50))
+        toPath.addLineToPoint(CGPoint(x: cukeView.frame.width/2, y: CGFloat(cuke.excitementCurrent)*2))
+        
+        let animation = CABasicAnimation(keyPath: "path")
+        animation.duration = 0.1
+        
+        
+        // Your new shape here
+        animation.toValue = toPath.CGPath
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        
+        // The next two line preserves the final shape of animation,
+        // if you remove it the shape will return to the original shape after the animation finished
+        animation.fillMode = kCAFillModeForwards
+        animation.removedOnCompletion = false
+        
+        cukeShapeLayer.addAnimation(animation, forKey: nil)
+    }
     
     func makeBubble() {
         let bubbleX = CGFloat(arc4random_uniform(UInt32(cukeView.frame.width)) + UInt32(cukeView.frame.origin.x))
