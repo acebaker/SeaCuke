@@ -20,7 +20,6 @@
 		B8892E4B1C06545A00408A4E /* SeaScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B8892E4A1C06545A00408A4E /* SeaScene.sks */; };
 		B8892E4D1C06548100408A4E /* SeaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8892E4C1C06548100408A4E /* SeaScene.swift */; };
 		B8892E4F1C07C23200408A4E /* TestShapesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8892E4E1C07C23200408A4E /* TestShapesViewController.swift */; };
-		B8892E511C09114300408A4E /* DeleteThisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8892E501C09114300408A4E /* DeleteThisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		B8892E4A1C06545A00408A4E /* SeaScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SeaScene.sks; sourceTree = "<group>"; };
 		B8892E4C1C06548100408A4E /* SeaScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaScene.swift; sourceTree = "<group>"; };
 		B8892E4E1C07C23200408A4E /* TestShapesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestShapesViewController.swift; sourceTree = "<group>"; };
-		B8892E501C09114300408A4E /* DeleteThisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteThisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +145,6 @@
 				B802BDCF1BF4174400AA7D50 /* ViewController.swift */,
 				B802BDFB1BF41ACF00AA7D50 /* LuckyNoteViewController.swift */,
 				B8892E4E1C07C23200408A4E /* TestShapesViewController.swift */,
-				B8892E501C09114300408A4E /* DeleteThisViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -313,7 +310,6 @@
 				B80EF0AF1BFCDB04006B16B2 /* BubbleView.swift in Sources */,
 				B802BDD01BF4174400AA7D50 /* ViewController.swift in Sources */,
 				B80EF0AD1BFC59B0006B16B2 /* Cuke.swift in Sources */,
-				B8892E511C09114300408A4E /* DeleteThisViewController.swift in Sources */,
 				B802BDFC1BF41ACF00AA7D50 /* LuckyNoteViewController.swift in Sources */,
 				B8892E4F1C07C23200408A4E /* TestShapesViewController.swift in Sources */,
 				B8892E4D1C06548100408A4E /* SeaScene.swift in Sources */,
